@@ -17,5 +17,4 @@ services:
 
 volumes:
   rabbitmq_data:
-    external: true
-    name: local-tests_rabbitmq_rabbitmq_data
+    driver: local
